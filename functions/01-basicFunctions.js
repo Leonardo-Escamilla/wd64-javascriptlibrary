@@ -23,7 +23,7 @@ function functionname (){
 };
 
 // 5
-functionname()
+functionName()
 
 /*
     - 1: KEYWORD "function"
@@ -56,3 +56,33 @@ let anon = function() {
     console.log('anon function')
 }
 anon();
+
+
+
+//? Parameters
+// Allow us to accept information already declared.
+
+function parameterFunc(num) {
+    console.log(num);
+}
+
+parameterFunc(2);
+parameterFunc(9);
+
+let returnedVal = 5;
+parameterFunc(returnedVal);
+
+let firstName = "Jane";
+let lastName = "Doe";
+
+function greeting (first, last){
+    console.log(`Hi, ${first}! Welcome back!`)
+    console.log(`This is the first parameter: ${first}`)
+    console.log(`This is the last parameter: ${last}`)
+}
+
+//greeting(firstName);
+//greeting(lastName);
+//greeting (firstName, lastName);
+//gretting(firstName, null);
+greeting ('', lastName);

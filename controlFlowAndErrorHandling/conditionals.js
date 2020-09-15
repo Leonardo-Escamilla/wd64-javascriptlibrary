@@ -205,3 +205,15 @@ switch(instructor) {
     default:
         console.log(`Sorry, I can't find what ${instructor} teaches.`)
 }
+
+//! Challenge 2: Take Home Challenge
+/*  
+Create a switch statement that takes in a value (number) that represents a grade.  If it is True, console log that they are passing with the correct letter grade.
+*   A: 89-100
+*   B: 79-88
+*   C: 66-78
+*   D: 59-65
+*   F: 0-59
+*/
+
+
